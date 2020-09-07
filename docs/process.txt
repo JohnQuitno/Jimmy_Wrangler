@@ -1,0 +1,25 @@
+- Data Sets
+
+In this project I look at Covid data since late february for US and Italy. I got this data from Kaggle and 
+it has similar summary statistics for both countries. Things like test results, hospilization statistics, and 
+intensive care statistics are included in these data sets.
+
+- Loading into DataFrames and cleaning
+
+The first thing that I did was make sure that the dates line up, are in the same format, and are the indices of 
+the datasets. I used pd.to_datetime to do this for both datasets after modifying the date formats in the csv.
+
+- Combining
+
+I combined these datasets in a couple ways that I thought would be interesting. The first thing that I did was 
+just look at the positivity rates of the two countries combined over the period given. I also wanted to look at
+the hospilization rate. So I used the respective columns in the original data sets, combined them based on the date
+of the released information and then looked at these summary statistics.
+
+- Results
+
+I found that positivity rates went down significantly over time. I believe that this is expected because testing 
+capabilities drastically increased over this time period. The positivity rate was something like 16% at the beginning
+of the pandemic and is now closer to 5% in our data. The trend in the hospilization rate is similar. Since there is 
+significantly more testing that is being done, we are finding cases many more cases that are less severe. The
+positivity rate has gone from nearly 25% to less than 5%.
