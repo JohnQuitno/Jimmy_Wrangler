@@ -8,7 +8,9 @@ Project Organization
 
 
     ├── data
-    │   └── raw            
+    │   └── raw   
+    │        │── US_Covid_data     
+    │        │── Italy_Covid_data             
     │
     ├── docs               
     │   └── process.txt    
